@@ -47,3 +47,6 @@ var DrawEye = function(eyecontainer, pupil, eyeposx, eyeposy, eyer){
     pupil.css({left:xp, top:yp});
   }, 1);
 };
+
+var eye = new DrawEye("eye1", "pupil1", 320, 440, 40);
+var eye = new DrawEye("eye2", "pupil2", 150, 440, 66);
