@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="bootstrap.css" />
-    <link rel="stylesheet" href="eyes/css/style.css" />
 
 
+    <script src='jquery.min.js'></script>
+    <script  src="eyes/js/index.js"></script>
 
   </head>
     <!--[if lte IE 8]>
@@ -43,7 +44,12 @@
 
 
     <div>
-      <div id="monstereyes"></div>
+      <div id="monstereyes">
+        <script>
+          var eye = new DrawEye("eye1", "pupil1", 320, 440, 40);
+          var eye = new DrawEye("eye2", "pupil2", 150, 440, 66);
+        </script>
+      </div>
 
       <div>
       <img src="/images/ann1.jpg">
@@ -57,7 +63,5 @@
         <p><span class="text"></span> ♥ from Wholesome & Co. Ltd.</p>
       </div>
     </div>
-    <script src='jquery.min.js'></script>
-    <script  src="eyes/js/index.js"></script>
 </body>
 </html>
