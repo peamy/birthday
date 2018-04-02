@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Happy Birthday!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script src='jquery.min.js'></script>
+    <script  src="eyes/js/index.js"></script>
+
+  </head>
+    <div>
+      <div id="monstereyes">
+        <script>
+          var eye = new DrawEye("eye1", "pupil1", 875, 605, 45); //ann rigt
+          var eye = new DrawEye("eye2", "pupil2", 830, 603, 45); //ann left
+           var eye = new DrawEye("eye3", "pupil3", 170, 940, 60); //cat
+           var eye = new DrawEye("eye4", "pupil4", 235, 940, 60); //can ann left
+          // var eye = new DrawEye("eye5", "pupil5", 90, 848, 10); //can ann right
+        </script>
+      </div>
+
+      <div>
+      <img src="/images/chris.jpg">
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <div>
+        <hr></hr>
+        <p><span class="text"></span> ♥ from Wholesome & Co. Ltd.</p>
+      </div>
+    </div>
+
+    <script>
+      var audio = new Audio('music/happybirthday.mp3');
+      audio.play();
+    </script>
+
+</body>
+</html>
