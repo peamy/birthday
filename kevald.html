@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Happy Birthday Kevald!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script src='jquery.min.js'></script>
+    <script  src="eyes/js/index.js"></script>
+
+  </head>
+    <div>
+      <!-- <div id="monstereyes">
+        <!-- <script>
+          var eye = new DrawEye("eye1", "pupil1", 325, 370, 45); //ann rigt
+          var eye = new DrawEye("eye2", "pupil2", 146, 360, 86); //ann left -->
+        <!--</script>
+      <!--</div> -->
+
+      <script>
+      function beep() {
+          console.log('beep');
+          var audio2 = new Audio('music/OW3.wav');
+          audio2.play();
+          document.getElementById('foto').src='/images/kevpun2.png';
+          setTimeout(reset, 300)
+      }
+
+      function reset(){
+        document.getElementById('foto').src='/images/kevpun.png';
+      }
+      </script>
+      <div>
+      <img onclick="beep()" id="foto" src="/images/kevpun.png">
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <div>
+        <hr></hr>
+        <p><span class="text"></span> ♥ from Wholesome & Co. Ltd.</p>
+      </div>
+    </div>
+
+    <script>
+      var audio = new Audio('music/hhbd.mp3');
+      audio.play();
+    </script>
+
+</body>
+</html>
